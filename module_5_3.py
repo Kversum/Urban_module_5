@@ -164,8 +164,8 @@ print(obj_1)
 obj_2 = 10 + obj_2      # __radd__
 print(obj_2)
 print('--------------------------')
-print(f'Сравнение этажей > __gt__  {obj_1 > obj_2}')      # __gt__
+print(f'Сравнение этажей > __gt__  {obj_1 > obj_2}')     # __gt__
 print(f'Сравнение этажей >= __ge__ {obj_1 >= obj_2}')    # __ge__
-print(f'Сравнение этажей < __lt__  {obj_1 < obj_2}')      # __lt__
+print(f'Сравнение этажей < __lt__  {obj_1 < obj_2}')     # __lt__
 print(f'Сравнение этажей <= __le__ {obj_1 <= obj_2}')    # __le__
 print(f'Сравнение этажей != __ne__ {obj_1 != obj_2}')    # __ne__
