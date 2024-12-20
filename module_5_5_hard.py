@@ -151,7 +151,6 @@ class UrTube:
         return result
 
     def watch_video(self, video_name):
-        #if self.current_user == None:
         if self.current_user is None:
             print("Для просмотра видео необходимо залогиниться")
             return
